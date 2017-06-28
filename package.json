@@ -1,15 +1,16 @@
 {
-  "name": "ethereumjs-lib",
+  "name": "expansejs-lib",
   "version": "1.0.1",
-  "description": "NodeJS and browser JS library for Ethereum",
+  "description": "NodeJS and browser JS library for Expanse",
   "main": "./index.js",
   "license": "MPL-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ethereum/ethereumjs-lib.git"
+    "url": "https://github.com/expansejs/expansejs-lib.git"
   },
   "keywords": [
     "ethereum",
+    "expanse",
     "bitcoin",
     "crypto",
     "library"
@@ -17,13 +18,13 @@
   "dependencies": {
     "devp2p": "*",
     "devp2p-dpt": "*",
-    "ethashjs": "*",
-    "ethereumjs-account": "*",
-    "ethereumjs-block": "*",
-    "ethereumjs-blockchain": "*",
-    "ethereumjs-tx": "1.1.3",
-    "ethereumjs-util": "5.0.0",
-    "ethereumjs-vm": "2.0.2",
+    "ethashjs-exp": "*",
+    "expansejs-account": "*",
+    "expansejs-block": "*",
+    "expansejs-blockchain": "*",
+    "expansejs-tx": "1.1.3",
+    "expansejs-util": "5.0.0",
+    "expansejs-vm": "2.0.2",
     "merkle-patricia-tree": "*"
   },
   "author": {
@@ -34,6 +35,7 @@
     "Vitalik Buterin (https://github.com/vbuterin)",
     "Martin Becze <wanderer.github.io> (github.com/wanderer)",
     "Ethers (github.com/ethers)",
-    "Aaron Kumavis <http://aaron.kumavis.me/> (https://github.com/kumavis)"
+    "Aaron Kumavis <http://aaron.kumavis.me/> (https://github.com/kumavis)",
+    "Dan Conway (http://github.com/dev-dan)"
   ]
 }

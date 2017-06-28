@@ -48,4 +48,4 @@ network.on('message.getTransactions', function(){
     console.log('request for transactions');
 });
 
-network.listen(30303, '0.0.0.0');
+network.listen(42786, '0.0.0.0');
